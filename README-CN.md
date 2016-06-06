@@ -6,15 +6,14 @@ CSDN: http://blog.csdn.net/rain_butterfly
 
 ---
 # AndroidTVLauncher
-[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)](http://blog.csdn.net/rain_butterfly/article/details/44942747)
 
-<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/jackyLauncher/src/main/res/drawable-xhdpi/ic_launcher.png" width = "100" height = "100" alt="logo" align=center />
+<img src="https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/launcher-4.2/src/main/res/drawable-xhdpi/ic_launcher.png" width = "100" height = "100" alt="logo" align=center />
 
 这个项目是对android-tv-launcher开源项目用gradle编译的升级改造（以前那个也是本人的项目）
 
 ###注意
-LeanbackLauncher 是Leanback支持库的demo，稍后会把原Launcher的特性加进去，只支持Android 6.0以上。
-如果你需要兼容Android 6.0以下的设备请用jackyLauncher。
+Leanback Demo 现在支持最低版本是4.2！！（基本可以兼容国内大部分的电视和机顶盒了）鼓掌👏👏
+如果你必须要兼容4.0-4.1的设备，可以使用Launcher-4.0（旧的UI界面）
 
 ###特性
 > * 应用卸载
@@ -24,8 +23,10 @@ LeanbackLauncher 是Leanback支持库的demo，稍后会把原Launcher的特性�
 > * 网络设置等等
 
 ###效果图
-![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/androidtv-leanback-sample.png)
-![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/atv-leanback-all.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/social_share_2016-06-04-18-45-13.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/social_share_2016-06-04-18-45-34.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/social_share_2016-06-04-18-45-43.png)
+![](https://github.com/JackyAndroid/AndroidTVLauncher/blob/master/screenshots/social_share_2016-06-04-18-46-02.png)
 
 ###下一步的改进
 > * 焦点问题（焦点问题在一些机顶盒上面可能会出现偏移）
