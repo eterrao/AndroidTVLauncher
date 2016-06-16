@@ -44,9 +44,6 @@ import java.util.Arrays;
  */
 public class DemoActivity extends FragmentActivity {
 
-    private static final String JSON_URL = "http://commondatastorage.googleapis.com/android-tv/android_tv_videos.json";
-    private static final String BASE_CONTENT_URL = "http://commondatastorage.googleapis.com/android-tv/Sample%20videos/";
-
     private BrowseFragment browseFragment;
     private BrowseSupportFragment browseSupportFragment;
     private android.support.v17.leanback.app.BrowseFragment browseStockFragment;
@@ -129,7 +126,7 @@ public class DemoActivity extends FragmentActivity {
     private void parseData() {
         videoList = new ArrayList<>();
         try {
-            JsonElement root = new JsonParser().parse(new BufferedReader(new InputStreamReader(getResources().getAssets().open("android_tv_videos.json"))));
+            JsonElement root = new JsonParser().parse(new BufferedReader(new InputStreamReader(getResources().getAssets().open("data.json"))));
             JsonArray array = root.getAsJsonObject().get("googlevideos").getAsJsonArray();
 
             Gson gson = new Gson();
